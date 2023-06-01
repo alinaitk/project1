@@ -1,39 +1,4 @@
-# from tkinter import *
-# tk = Tk()
-# canvas = Canvas(tk, width = 300, height = 500)
-# canvas.pack()
-# rect = canvas.create_rectangle(100,100,150,200, fill = 'red')
-# lines = canvas.create_line(90,500,90,0, fill = 'green')
-# lines = canvas.create_line(180,500,180,0, fill = 'green')
-# def move_circle(event):
-#     if event.keysym == 'Up':
-#         canvas.move(rect,0,-10)
-#     elif event.keysym == 'Down':
-#         canvas.move(rect,0,10)
-#     elif event.keysym == 'Right':
-#         canvas.move(rect,5,0)
-#     elif event.keysym == 'Left':
-#         canvas.move(rect,-5,0)
-# list1 = ['<Up>', '<Down>', '<Left>', '<Right>']
-# for x in range(0,len(list1)):
-#     canvas.bind_all(list1[x], move_circle)
-#
-# tk.mainloop()
-#
-# from tkinter import *
-# tk = Tk()
-# canvas = Canvas(tk, width=400, height=500)
-# canvas.pack()
-# house = canvas.create_rectangle(100, 300, 200, 350, fill='white')
-# ground = canvas.create_rectangle(0, 350, 400, 500, fill='green')
-# sun = canvas.create_oval(300, 100, 400, 200, fill='yellow')
-# roof = canvas.create_polygon(100, 300, 150, 250, 200, 300, fill='brown')
-# cloud = canvas.create_oval(30, 100, 100, 150, fill='white')
-# cloud2 = canvas.create_oval(150, 20, 250, 80, fill='blue')
-# door = canvas.create_rectangle(140, 350, 160, 315, fill='pink')
-# window = canvas.create_rectangle(110, 325, 125, 345, fill='blue')
-# window2 = canvas.create_rectangle(175, 325, 190, 345, fill='blue')
-# tk.mainloop()
+
 import random
 import time
 from tkinter import *
@@ -141,6 +106,3 @@ while 1:
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)
-
-
-

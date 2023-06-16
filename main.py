@@ -2,7 +2,7 @@
 import random
 import time
 from tkinter import *
-tk = Tk()
+tk = Tk()#yguyuguyfthrtgrdukygliuafiuFVYVU
 tk.title('jumping ball')
 tk.resizable(0, 0)
 tk.wm_attributes('-topmost', 1)
